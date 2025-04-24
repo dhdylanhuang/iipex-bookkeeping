@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
 return (
     <div className="text-white pl-12">
-        <div className="pl-0 sm:pl-12 md:pl-12 p-4 max-w-[1240px] w-4/5 md:w-2/3 h-auto ml-0 flex flex-col justify-center items-start text-left">
+        <div className="pl-0 sm:pl-12 md:pl-12 p-4 max-w-[1240px] w-full md:w-2/3 h-auto ml-0 flex flex-col justify-center items-start text-left">
             <p className="text-[#00df9a] font-bold text-4xl">
                 Managing your books is not easy.
             </p>

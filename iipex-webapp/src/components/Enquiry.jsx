@@ -29,7 +29,7 @@ function Enquiry() {
     }
 
     return (
-        <div className="w-full bg-[#1c1003] py-16 px-4">
+        <div className="w-full bg-black py-16 px-4">
             <div className="max-w-[1240px] mx-auto flex flex-col items-start">
                 <p className="text-xl text-[#00df9a] font-bold">Enquiry</p>
                 <h2 className="text-3xl text-white font-bold py-2">We’d Love to Hear From You</h2>
