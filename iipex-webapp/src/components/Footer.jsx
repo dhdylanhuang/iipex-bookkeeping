@@ -12,10 +12,15 @@ const Footer = () => {
     <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-50'>
       <div>
         <h1 className='w-full text-3xl font-bold text-blue-300'>IIPEX Accounting Services</h1>
-        <p className='py-0'>Address goes here</p>
-        <p className='py-4'>Phone here</p>
-        <p className='py-0'>Email here</p>
-        <div className='flex justify-between md:w-[75%] my-6'>
+        <p className='py-0'>Office 1025, 3 Fitzroy Place</p>
+        <p className='py-0'>1/1 SAUCHIEHALL ST</p>
+        <p className='py-0'>FINNIESTON</p>
+        <p className='py-0'>GLASGOW</p>
+        <p className='py-0'>G3 7RH</p>
+        <p className='py-2'>Mobile: 0786 729311</p>
+        <p className='py-0'>info@iipex.co.uk</p>
+        <p className='py-0'>shabana@iipex.co.uk</p>
+        <div className='flex justify-between md:w-[75%] mt-4'>
             <FaFacebookSquare size={30} />
             <FaInstagram size={30} />
             <FaTwitterSquare size={30} />
