@@ -9,9 +9,9 @@ import {
 
 const Footer = () => {
   return (
-    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
+    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-50'>
       <div>
-        <h1 className='w-full text-3xl font-bold text-[#00df9a]'>IIPEX Accounting Services</h1>
+        <h1 className='w-full text-3xl font-bold text-blue-300'>IIPEX Accounting Services</h1>
         <p className='py-0'>Address goes here</p>
         <p className='py-4'>Phone here</p>
         <p className='py-0'>Email here</p>
@@ -25,7 +25,7 @@ const Footer = () => {
       </div>
       <div className='lg:col-span-2 flex justify-between mt-6'>
     <div>
-        <h6 className='font-medium text-gray-400'>Solutions</h6>
+        <h6 className='font-medium text-gray-100'>Solutions</h6>
         <ul>
             <li className='py-2 text-sm'>Analytics</li>
             <li className='py-2 text-sm'>Marketing</li>
@@ -34,21 +34,21 @@ const Footer = () => {
         </ul>
     </div>
     <div>
-        <h6 className='font-medium text-gray-400'>Support</h6>
+        <h6 className='font-medium text-gray-100'>Support</h6>
         <ul>
             <li className='py-2 text-sm'>Contact Us</li>
             <li className='py-2 text-sm'>Contact About Website</li>
         </ul>
     </div>
     <div>
-        <h6 className='font-medium text-gray-400'>Company</h6>
+        <h6 className='font-medium text-gray-100'>Company</h6>
         <ul>
             <li className='py-2 text-sm'>About Us</li>
             <li className='py-2 text-sm'>FAQs</li>
         </ul>
     </div>
     <div>
-        <h6 className='font-medium text-gray-400'>Legal</h6>
+        <h6 className='font-medium text-gray-100'>Legal</h6>
         <ul>
             <li className='py-2 text-sm'>Privacy Policy</li>
             <li className='py-2 text-sm'>Terms & Conditions</li>

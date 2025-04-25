@@ -29,9 +29,9 @@ function Enquiry() {
     }
 
     return (
-        <div className="w-full bg-black py-16 px-4">
+        <div className="w-full py-16 px-4">
             <div className="max-w-[1240px] mx-auto flex flex-col items-start">
-                <p className="text-xl text-[#00df9a] font-bold">Enquiry</p>
+                <p className="text-2xl text-blue-300 font-bold">Enquiry</p>
                 <h2 className="text-3xl text-white font-bold py-2">We’d Love to Hear From You</h2>
                 <form onSubmit={handleSubmit} className="w-full mt-6 flex flex-col gap-4">
                     <input
@@ -40,7 +40,7 @@ function Enquiry() {
                         value={email}
                         onChange={e => setEmail(e.target.value)}
                         required
-                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00df9a]"
+                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300"
                     />
                     <input
                         type="text"
@@ -48,7 +48,7 @@ function Enquiry() {
                         value={subject}
                         onChange={e => setSubject(e.target.value)}
                         required
-                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00df9a]"
+                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300"
                     />
                     <textarea
                         placeholder="Your Message"
@@ -56,17 +56,17 @@ function Enquiry() {
                         onChange={e => setMessage(e.target.value)}
                         required
                         rows={5}
-                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00df9a]"
+                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300"
                     />
                     <button
                         type="submit"
-                        className="bg-[#00df9a] text-black w-[200px] rounded-md font-medium py-3 hover:opacity-90 transition"
+                        className="bg-blue-500 text-white w-[200px] rounded-md font-medium py-3 hover:opacity-90 transition"
                     >
                         Send Message
                     </button>
                 </form>
                 {status && (
-                    <p className="mt-4 text-[#00df9a] font-medium">{status}</p>
+                    <p className="mt-4 text-white font-medium">{status}</p>
                 )}
             </div>
         </div>

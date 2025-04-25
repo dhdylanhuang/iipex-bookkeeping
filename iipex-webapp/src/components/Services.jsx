@@ -62,8 +62,8 @@ export default function Services() {
                         className={`flex items-center gap-2 px-5 py-2 rounded-md font-medium
                             ${
                                 s.key === active
-                                    ? "bg-[#00df9a] text-black shadow-lg"
-                                    : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                                    ? "bg-blue-400 text-white shadow-lg"
+                                    : "bg-gray-800 text-white hover:bg-blue-900"
                             }`}
                     >
                         {s.icon}
