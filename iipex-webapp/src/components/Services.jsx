@@ -6,6 +6,7 @@ import {
     FaCreditCard,
     FaMoneyCheckAlt,
     FaUsersCog,
+    FaPercentage
 } from "react-icons/fa";
 
 const services = [
@@ -28,6 +29,12 @@ const services = [
             "Monthly/quarterly management reports to help you steer your business.",
     },
     {
+        key: "VAT Returns",
+        icon: <FaPercentage size={24} />,
+        description:
+            "VAT returns, EC sales lists and Intrastat reports to keep you compliant.",
+    },
+    {
         key: "Credit Control",
         icon: <FaCreditCard size={24} />,
         description:
@@ -40,7 +47,7 @@ const services = [
             "Seamless payment collections and disbursements via your choice of channels.",
     },
     {
-        key: "Accounts Department",
+        key: "Business Advisory",
         icon: <FaUsersCog size={24} />,
         description:
             "Outsource your entire accounts team—bookkeepers, accountants & controllers.",
