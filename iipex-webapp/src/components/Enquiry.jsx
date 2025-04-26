@@ -10,22 +10,29 @@ function Enquiry() {
   const sendEmail = (e) => {
     e.preventDefault()
 
+    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID
+    const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID
+    const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+
     emailjs
-      .sendForm(
-        e.target,
-      )
-      .then(
-        (result) => {
-          setStatus('Message sent successfully!')
-          setEmail('')
-          setSubject('')
-          setMessage('')
-        },
-        (error) => {
-          console.error('EmailJS error:', error)
-          setStatus('Failed to send message.')
-        }
-      )
+        .sendForm(
+            serviceId,
+            templateId,
+            e.target,
+            publicKey
+        )
+        .then(
+            result => {
+                setStatus('Message sent successfully!')
+                setEmail('')
+                setSubject('')
+                setMessage('')
+            },
+            error => {
+                console.error('EmailJS error:', error)
+                setStatus('Failed to send message.')
+            }
+        )
   }
 
   return (
