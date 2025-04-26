@@ -15,10 +15,6 @@ return (
                     Whether it’s getting paid by your customers on time, completing your VAT returns, processing payroll or submitting your annual accounts and tax returns, the demands on businesses can seem endless. And it’s almost certainly not why you got into business in the first place. It is, however, exactly why we got into business. We do the things you avoid because where your business is concerned, you do the real work, we do the paperwork.
                 </p>
             </div>
-            <p className="md:text-2xl text-xl font-bold text-gray-50">
-                Give us the ledgers and we'll handle the rest. Check our services below:
-            </p>
-            
         </div>
     </div>
 );

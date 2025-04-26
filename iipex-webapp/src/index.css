@@ -6,4 +6,9 @@
   body {
     @apply bg-gradient-to-b from-blue-400 to-blue-900;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
 }
+
