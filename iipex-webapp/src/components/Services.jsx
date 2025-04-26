@@ -23,12 +23,6 @@ const services = [
             "End‑to‑end payroll processing, tax filings and payslips for your employees.",
     },
     {
-        key: "Management Accounts",
-        icon: <FaChartLine size={24} />,
-        description:
-            "Monthly/quarterly management reports to help you steer your business.",
-    },
-    {
         key: "VAT Returns",
         icon: <FaPercentage size={24} />,
         description:
@@ -41,16 +35,16 @@ const services = [
             "We'll chase invoices, manage aged debtors and improve your cashflow.",
     },
     {
-        key: "Payment Services",
-        icon: <FaMoneyCheckAlt size={24} />,
-        description:
-            "Seamless payment collections and disbursements via your choice of channels.",
-    },
-    {
         key: "Business Advisory",
         icon: <FaUsersCog size={24} />,
         description:
             "Outsource your entire accounts team—bookkeepers, accountants & controllers.",
+    },
+    {
+        key: "Management Accounts",
+        icon: <FaChartLine size={24} />,
+        description:
+            "Monthly/quarterly management reports to help you steer your business.",
     },
 ];
 
