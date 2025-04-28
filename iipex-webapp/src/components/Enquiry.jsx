@@ -40,13 +40,13 @@ function Enquiry() {
       <div className="max-w-[1240px] mx-auto flex flex-col items-start">
         <p className="text-2xl text-blue-300 font-bold">Enquiry</p>
         <h2 className="text-3xl text-white font-bold py-2">
-          We’d Love to Hear From You
+          Contact Us Directly, we'll get back to you as soon as possible.
         </h2>
 
         <form onSubmit={sendEmail} className="w-full mt-6 flex flex-col gap-4">
           <input
             type="email"
-            name="client_email"             // ← matches your EmailJS template variable
+            name="client_email"
             placeholder="Your Email"
             value={email}
             onChange={e => setEmail(e.target.value)}
@@ -56,7 +56,7 @@ function Enquiry() {
 
           <input
             type="text"
-            name="subject"                // ← matches your EmailJS template variable
+            name="subject"
             placeholder="Subject"
             value={subject}
             onChange={e => setSubject(e.target.value)}
@@ -65,7 +65,7 @@ function Enquiry() {
           />
 
           <textarea
-            name="message"                // ← matches your EmailJS template variable
+            name="message"
             placeholder="Your Message"
             value={message}
             onChange={e => setMessage(e.target.value)}
