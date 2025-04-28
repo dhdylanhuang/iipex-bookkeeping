@@ -13,7 +13,7 @@ function Navbar() {
         <h1 className='w-full pt-4 text-4xl font-bold text-white text-center text-outline-blue'>IIPEX Accounting Services</h1>
         <ul className='text-xl justify-between items-center hidden md:flex'>
             <li className='p-4'><a href="#home">Home</a></li>
-            <li className='p-4'><a href="#footer">About</a></li>
+            <li className='p-4'><a href="#about">About</a></li>
             <li className='p-4'><a href="#services">Services</a></li>
             <li className='p-4'><a href="#info">INFO</a></li>
             <li className='p-4'><a href="#footer">Contact Us</a></li>
@@ -25,7 +25,7 @@ function Navbar() {
             <h1 className='w-full text-3xl m-4 font-bold text-white'>IIPEX Accounting Services</h1>
             <ul className='uppercase p-4'>
                 <li className='p-4 border-b border-grey-600'><a href="#home">Home</a></li>
-                <li className='p-4 border-b border-grey-600'><a href="#footer">About</a></li>
+                <li className='p-4 border-b border-grey-600'><a href="#about">About</a></li>
                 <li className='p-4 border-b border-grey-600'><a href="#services">Services</a></li>
                 <li className='p-4 border-b border-grey-600'><a href="#info">INFO</a></li>
                 <li className='p-4 border-b border-grey-600'><a href="#footer">Contact Us</a></li>

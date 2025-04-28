@@ -5,6 +5,7 @@ import Services from './components/Services';
 import InfoPerformance from './components/InfoPerformance';
 import Enquiry from './components/Enquiry';
 import Footer from './components/Footer';
+import About from './components/About';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
       </div>
       <div id='enquiry'>
         <Enquiry />
+      </div>
+      <div id='about'>
+        <About />
       </div>
       <div id='footer'>
         <Footer />
