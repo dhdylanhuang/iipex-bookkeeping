@@ -54,7 +54,7 @@ export default function Services() {
     return (
 
         <div className="max-w-4xl mx-auto py-10">
-            <p className="md:text-2xl text-xl font-bold text-gray-50 pb-4 sm:px-4">
+            <p className="pl-2 sm:pl-4 pb-4 md:text-2xl text-xl font-bold text-gray-50">
                 Give us the ledgers and we'll handle the rest. Check our services below:
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">

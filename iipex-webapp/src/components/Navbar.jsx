@@ -9,11 +9,11 @@ function Navbar() {
         setNav(!nav)
     }
 
-  return (
+return (
     <div className="max-w-[1240px] mx-auto px-2 text-white">
-        <h1 className='w-full pt-4 text-4xl font-bold text-white text-center text-outline-blue flex items-center justify-center'>
-          <img src={logo} alt="IIPEX Logo" className="w-16 h-16 mr-2" />
-          IIPEX Accounting Services
+        <h1 className="w-full pt-4 text-4xl font-bold text-white text-center text-outline-blue flex flex-col-reverse md:flex-row items-center justify-center">
+            <img src={logo} alt="IIPEX Logo" className="w-16 h-16 md:mr-2" />
+            IIPEX Accounting Services
         </h1>
         <ul className='text-xl justify-between items-center hidden md:flex'>
             <li className='p-4'><a href="#home">Home</a></li>
@@ -36,7 +36,7 @@ function Navbar() {
             </ul>
         </div>
     </div>
-  )
+)
 }
 
 export default Navbar
