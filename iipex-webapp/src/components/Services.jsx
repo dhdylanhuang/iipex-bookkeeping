@@ -4,7 +4,6 @@ import {
     FaMoneyBillWave,
     FaChartLine,
     FaCreditCard,
-    FaMoneyCheckAlt,
     FaUsersCog,
     FaPercentage
 } from "react-icons/fa";
