@@ -1,6 +1,6 @@
 import React from 'react';
-import fsb_logo from '../assets/fsb-logo.png';
-import aat_logo from '../assets/aat-logo.jpg';
+// import fsb_logo from '../assets/fsb-logo.png';
+// import aat_logo from '../assets/aat-logo.jpg';
 
 const InfoPerformance = () => {
   return (
