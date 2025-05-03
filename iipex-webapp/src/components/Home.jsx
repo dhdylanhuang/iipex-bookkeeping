@@ -9,7 +9,7 @@ return (
                 At <span className="text-blue-400">IIPEX Accountancy Services</span>, we provide:
             </h1>
             <div className="flex justify-start items-center">
-                <ul className="text-lg md:text-4xl sm:text-3xl py-12 list-disc list-inside">
+                <ul className="text-lg md:text-4xl sm:text-3xl pt-12 list-disc list-inside">
                     <li>Profesional Accountancy Services</li>
                     <li>Customised to Individual Clients</li>
                     <li>To Achieve your Business Needs</li>
