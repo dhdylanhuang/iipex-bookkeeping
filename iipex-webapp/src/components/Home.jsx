@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/iipex-logo.png';
+// import logo from '../assets/iipex-logo.png';
 
 const Home = () => {
 return (
@@ -19,11 +19,11 @@ return (
             </div>
         </div>
         <div className="w-full md:w-1/3 flex justify-center sm:justify-end items-center px-4 sm:pr-12 sm:py-0">
-            <img
+            {/* <img
                 src={logo}
                 alt="IIPEX Logo"
                 className="h-5/6 w-5/6 sm:h-3/6 sm:w-3/6"
-            />
+            /> */}
         </div>
     </div>
 );
