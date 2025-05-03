@@ -4,7 +4,7 @@ import aat_logo from '../assets/aat-logo.jpg';
 
 const InfoPerformance = () => {
   return (
-    <div className='w-full mx-auto bg-white py-16 px-4'>
+    <div className='w-full mx-auto bg-white pt-4 pb-16 px-4'>
       <div className='max-w-[1240px] mx-auto'>
         <div className='flex flex-col justify-center'>
           <p className='text-xl text-blue-500 font-bold'>INFO PERFORMANCE</p>

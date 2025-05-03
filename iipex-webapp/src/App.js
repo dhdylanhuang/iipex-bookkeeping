@@ -19,14 +19,14 @@ function App() {
       <div id='services'>
         <Services />
       </div>
+      <div id='about'>
+        <About />
+      </div>
       <div id='info'>
         <InfoPerformance />
       </div>
       <div id='enquiry'>
         <Enquiry />
-      </div>
-      <div id='about'>
-        <About />
       </div>
       <div id='footer'>
         <Footer />
