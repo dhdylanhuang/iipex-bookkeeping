@@ -20,7 +20,6 @@ return (
             <img
                 src={logo}
                 alt="IIPEX Logo"
-                className="h-2/3 w-2/3 sm:h-2/3 sm:w-2/3"
             />
         </div>
     </div>
