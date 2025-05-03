@@ -17,7 +17,7 @@ return (
                 alt="IIPEX Logo"
                 className="hidden md:block w-16 h-16 md:mr-2"
             />
-            IIPEX Accounting Services
+            IIPEX Accountancy Services
         </h1>
         {/* <ul className='text-xl justify-between items-center hidden md:flex'>
             <li className='p-4'><a href="#home">Home</a></li>

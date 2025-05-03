@@ -6,7 +6,7 @@ return (
     <div className="text-white p-4 max-w-[1240px] mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="pl-0 md:pl-12 w-full md:w-2/3 flex flex-col justify-center items-start text-left">
             <h1 className="text-xl md:text-6xl sm:text-5xl font-bold md:pt-4">
-                At <span className="text-blue-400">IIPEX Accounting Services</span>, our goal is to make it <span className="text-blue-400">easier for you.</span>
+                At <span className="text-blue-400">IIPEX Accountancy Services</span>, our goal is to make it <span className="text-blue-400">easier for you.</span>
             </h1>
             <div className="flex justify-start items-center">
                 <p className="text-lg md:text-4xl sm:text-3xl py-12">

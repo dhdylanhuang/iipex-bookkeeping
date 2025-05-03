@@ -65,10 +65,10 @@ const services = [
             "We’ll help you create a business plan that’s tailored to your needs.",
     },
     {
-        key: "Accounting Software",
+        key: "Accountancy Software",
         icon: <CgSoftwareDownload size={24} />,
         description:
-            "Cloud Based and In-House accounting software such as Xero, Quickbooks, Sage and more.",
+            "Cloud Based and In-House Accountancy software such as Xero, Quickbooks, Sage and more.",
     },
 ];
 

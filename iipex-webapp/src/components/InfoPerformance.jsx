@@ -12,20 +12,20 @@ const InfoPerformance = () => {
             We are Members of and Certified with:
           </h1>
           <div className="flex flex-row space-x-8 mt-4">
-            <a href="https://www.fsb.org.uk/">
+            {/* <a href="https://www.fsb.org.uk/">
               <img
                 src={fsb_logo}
                 alt="FSB Logo"
                 className="mt-4 w-56 transform transition-transform duration-300 ease-in-out hover:scale-110"
               />
-            </a>
-            <a href="https://www.aat.org.uk/about">
+            </a> */}
+            {/* <a href="https://www.aat.org.uk/about">
               <img
                 src={aat_logo}
                 alt="AAT Logo"
                 className="mt-0 w-56 transform transition-transform duration-300 ease-in-out hover:scale-110"
               />
-            </a>
+            </a> */}
           </div>
           {/* <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Get Started</button> */}
         </div>

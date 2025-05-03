@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-50'>
       <div>
-        <h1 className='w-full text-3xl font-bold text-blue-300'>IIPEX Accounting Services</h1>
+        <h1 className='w-full text-3xl font-bold text-blue-300'>IIPEX Accountancy Services</h1>
         <p className='py-0'>Office 1025, 3 Fitzroy Place</p>
         <p className='py-0'>1/1 SAUCHIEHALL ST</p>
         <p className='py-0'>FINNIESTON</p>

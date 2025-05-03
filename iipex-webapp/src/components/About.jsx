@@ -7,7 +7,7 @@ const About = () => {
         <div className='flex flex-col justify-center'>
           <p className='text-xl text-blue-500 font-bold'>ABOUT</p>
           <p>
-            <span className='md:text-xl sm:text-lg text-base font-bold py-2'>IIPEX Accounting Services</span> <span className='md:text-xl sm:text-lg text-base py-2'>is based in Control, Glasgow, Scotland.</span>
+            <span className='md:text-xl sm:text-lg text-base font-bold py-2'>IIPEX Accountancy Services</span> <span className='md:text-xl sm:text-lg text-base py-2'>is based in Central, Glasgow, Scotland.</span>
             <br>
             </ br>
             <span className='md:text-xl sm:text-lg text-base py-2'>Our staff have over 20 years of experience accross an array of industries. </span>
