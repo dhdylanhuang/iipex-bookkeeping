@@ -10,8 +10,8 @@ function Navbar() {
     }
 
 return (
-    <div className="max-w mx-auto px-2 text-white">
-        <h1 className="w-full pt-4 text-4xl font-bold text-white text-start text-outline-blue flex flex-col-reverse md:flex-row items-center justify-center">
+    <div className="max-w mx-auto px-2 text-blue-400 bg-white">
+        <h1 className="w-full pt-4 text-4xl font-bold text-blue-400 text-start text-outline-blue flex flex-col-reverse md:flex-row items-center justify-center">
             <img src={logo} alt="IIPEX Logo" className="w-16 h-16 md:mr-2" />
             IIPEX Accounting Services
         </h1>
@@ -31,7 +31,7 @@ return (
                     : 'fixed left-[-100%] top-0 z-50 ease-in-out duration-500'
             }
         >
-            <ul className='uppercase p-4'>
+            <ul className='uppercase p-4 text-white'>
                 <li className='p-4 border-b border-grey-600'><a href="#home">Home</a></li>
                 <li className='p-4 border-b border-grey-600'><a href="#about">About</a></li>
                 <li className='p-4 border-b border-grey-600'><a href="#services">Services</a></li>
