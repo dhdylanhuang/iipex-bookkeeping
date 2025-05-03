@@ -25,11 +25,12 @@ return (
         <div onClick={handleNav} className='fixed top-9 right-4 z-10 cursor-pointer block'>
             {!nav ? <AiOutlineMenu onClick={handleNav} size={20} /> : <AiOutlineClose onClick={handleNav} size={20} />}
         </div>
-        <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-blue-400 ease-in-out duration-500' : 'ease-in-out fixed left-[-100%]'}>
-            <h1 className='w-full text-3xl m-4 font-bold text-white'>
-                <img src={logo} alt="IIPEX Logo" className="w-12 h-12 md:mr-2" />
-                IIPEX Accounting Services
-            </h1>
+        <div className={
+                nav
+                    ? 'fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-blue-400 z-50 ease-in-out duration-500'
+                    : 'fixed left-[-100%] top-0 z-50 ease-in-out duration-500'
+            }
+        >
             <ul className='uppercase p-4'>
                 <li className='p-4 border-b border-grey-600'><a href="#home">Home</a></li>
                 <li className='p-4 border-b border-grey-600'><a href="#about">About</a></li>
