@@ -10,23 +10,26 @@ function Navbar() {
     }
 
 return (
-    <div className="max-w-[1240px] mx-auto px-2 text-white">
-        <h1 className="w-full pt-4 text-4xl font-bold text-white text-center text-outline-blue flex flex-col-reverse md:flex-row items-center justify-center">
+    <div className="max-w mx-auto px-2 text-white">
+        <h1 className="w-full pt-4 text-4xl font-bold text-white text-start text-outline-blue flex flex-col-reverse md:flex-row items-center justify-center">
             <img src={logo} alt="IIPEX Logo" className="w-16 h-16 md:mr-2" />
             IIPEX Accounting Services
         </h1>
-        <ul className='text-xl justify-between items-center hidden md:flex'>
+        {/* <ul className='text-xl justify-between items-center hidden md:flex'>
             <li className='p-4'><a href="#home">Home</a></li>
             <li className='p-4'><a href="#about">About</a></li>
             <li className='p-4'><a href="#services">Services</a></li>
             <li className='p-4'><a href="#info">INFO</a></li>
             <li className='p-4'><a href="#footer">Contact Us</a></li>
-        </ul>
-        <div onClick={handleNav} className='fixed top-4 right-4 z-10 cursor-pointer block md:hidden'>
+        </ul> */}
+        <div onClick={handleNav} className='fixed top-9 right-4 z-10 cursor-pointer block'>
             {!nav ? <AiOutlineMenu onClick={handleNav} size={20} /> : <AiOutlineClose onClick={handleNav} size={20} />}
         </div>
-        <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out fixed left-[-100%]'}>
-            <h1 className='w-full text-3xl m-4 font-bold text-white'>IIPEX Accounting Services</h1>
+        <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-blue-400 ease-in-out duration-500' : 'ease-in-out fixed left-[-100%]'}>
+            <h1 className='w-full text-3xl m-4 font-bold text-white'>
+                <img src={logo} alt="IIPEX Logo" className="w-12 h-12 md:mr-2" />
+                IIPEX Accounting Services
+            </h1>
             <ul className='uppercase p-4'>
                 <li className='p-4 border-b border-grey-600'><a href="#home">Home</a></li>
                 <li className='p-4 border-b border-grey-600'><a href="#about">About</a></li>
