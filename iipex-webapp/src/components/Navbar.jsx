@@ -11,13 +11,8 @@ function Navbar() {
 
 return (
     <div className="max-w mx-auto px-2 text-blue-400 bg-white">
-        <h1 className="w-full py-4 text-4xl font-bold text-blue-400 text-start text-outline-blue flex flex-col-reverse md:flex-row items-center justify-center">
-            {/* <img
-                src={logo}
-                alt="IIPEX Logo"
-                className="hidden md:block w-16 h-16 md:mr-2"
-            /> */}
-            IIPEX Accountancy Services
+        <h1 className="w-full py-4 text-4xl font-bold text-blue-400 text-outline-blue flex flex-col-reverse md:flex-row items-center justify-center">
+            IIPEX <span className="hidden md:block"> Accountancy Services</span>
         </h1>
         {/* <ul className='text-xl justify-between items-center hidden md:flex'>
             <li className='p-4'><a href="#home">Home</a></li>

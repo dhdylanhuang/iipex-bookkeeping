@@ -39,8 +39,8 @@ function Enquiry() {
     <div className="w-full py-16 px-4">
       <div className="max-w-[1240px] mx-auto flex flex-col items-start">
         <p className="text-2xl text-blue-300 font-bold">Enquiry</p>
-        <h2 className="text-3xl text-white font-bold py-2">
-          Contact Us Directly, we'll get back to you as soon as possible.
+        <h2 className="text-3xl text-white font-bold py-">
+          Contact Us and we'll get back to you as soon as possible.
         </h2>
 
         <form onSubmit={sendEmail} className="w-full mt-6 flex flex-col gap-4">

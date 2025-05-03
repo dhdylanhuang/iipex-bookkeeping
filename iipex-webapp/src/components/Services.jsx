@@ -78,7 +78,7 @@ export default function Services() {
 
     return (
 
-        <div className="max-w-4xl mx-auto py-10">
+        <div className="max-w-4xl mx-auto pb-16 ">
             <p className="pl-2 sm:pl-2 pb-4 md:text-2xl text-xl font-bold text-gray-50">
                 Our Services:
             </p>
