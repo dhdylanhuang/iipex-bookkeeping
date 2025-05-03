@@ -24,20 +24,10 @@ const Footer = () => {
             <FaFacebookSquare size={30} />
             <FaInstagram size={30} />
             <FaTwitterSquare size={30} />
-            <FaGithubSquare size={30} />
             <FaDribbbleSquare size={30} />
         </div>
       </div>
       <div className='lg:col-span-2 flex justify-between mt-6'>
-    <div>
-        <h6 className='font-medium text-gray-100'>Solutions</h6>
-        <ul>
-            <li className='py-2 text-sm'>Analytics</li>
-            <li className='py-2 text-sm'>Marketing</li>
-            <li className='py-2 text-sm'>Commerce</li>
-            <li className='py-2 text-sm'>Insights</li>
-        </ul>
-    </div>
     <div>
         <h6 className='font-medium text-gray-100'>Support</h6>
         <ul>

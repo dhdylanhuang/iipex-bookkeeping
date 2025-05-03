@@ -11,7 +11,7 @@ function Navbar() {
 
 return (
     <div className="max-w mx-auto px-2 text-blue-400 bg-white">
-        <h1 className="w-full pt-4 text-4xl font-bold text-blue-400 text-start text-outline-blue flex flex-col-reverse md:flex-row items-center justify-center">
+        <h1 className="w-full py-4 text-4xl font-bold text-blue-400 text-start text-outline-blue flex flex-col-reverse md:flex-row items-center justify-center">
             {/* <img
                 src={logo}
                 alt="IIPEX Logo"
@@ -26,7 +26,7 @@ return (
             <li className='p-4'><a href="#info">INFO</a></li>
             <li className='p-4'><a href="#footer">Contact Us</a></li>
         </ul> */}
-        <div onClick={handleNav} className='fixed top-9 right-8 z-10 cursor-pointer block'>
+        <div onClick={handleNav} className='fixed top-7 right-8 z-10 cursor-pointer block'>
             {!nav ? <AiOutlineMenu onClick={handleNav} size={20} /> : <AiOutlineClose onClick={handleNav} size={20} />}
         </div>
         <div className={
