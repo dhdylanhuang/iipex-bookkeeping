@@ -22,7 +22,7 @@ return (
             <li className='p-4'><a href="#info">INFO</a></li>
             <li className='p-4'><a href="#footer">Contact Us</a></li>
         </ul> */}
-        <div onClick={handleNav} className='fixed top-9 right-4 z-10 cursor-pointer block'>
+        <div onClick={handleNav} className='fixed top-9 right-8 z-10 cursor-pointer block'>
             {!nav ? <AiOutlineMenu onClick={handleNav} size={20} /> : <AiOutlineClose onClick={handleNav} size={20} />}
         </div>
         <div className={
