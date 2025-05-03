@@ -79,7 +79,7 @@ export default function Services() {
     return (
 
         <div className="max-w-4xl mx-auto py-10">
-            <p className="pl-2 sm:pl-4 pb-4 md:text-2xl text-xl font-bold text-gray-50">
+            <p className="pl-2 sm:pl-2 pb-4 md:text-2xl text-xl font-bold text-gray-50">
                 Our Services:
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
@@ -91,7 +91,7 @@ export default function Services() {
                             ${
                                 s.key === active
                                     ? "bg-blue-400 text-white shadow-lg"
-                                    : "bg-gray-800 text-white hover:bg-blue-900"
+                                    : "bg-gray-800 text-white hover:bg-blue-800"
                             }`}
                     >
                         {s.icon}
