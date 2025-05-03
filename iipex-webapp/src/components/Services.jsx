@@ -3,12 +3,25 @@ import {
     FaBook,
     FaMoneyBillWave,
     FaChartLine,
-    FaCreditCard,
     FaUsersCog,
     FaPercentage
 } from "react-icons/fa";
+import { 
+    MdAccountBalanceWallet,
+    MdBusinessCenter
+} from "react-icons/md";
+import { TbReceiptTax } from "react-icons/tb";
+import { CgSoftwareDownload } from "react-icons/cg";
+
+
 
 const services = [
+    {
+        key: "Financial Accounts",
+        icon: <MdAccountBalanceWallet size={24} />,
+        description:
+            "We’ll prepare your statutory accounts, tax returns and file them with Companies House and HMRC.",
+    },
     {
         key: "Bookkeeping",
         icon: <FaBook size={24} />,
@@ -28,22 +41,34 @@ const services = [
             "VAT returns, EC sales lists and Intrastat reports to keep you compliant.",
     },
     {
-        key: "Credit Control",
-        icon: <FaCreditCard size={24} />,
+        key: "Taxation",
+        icon: <TbReceiptTax size={24} />,
         description:
-            "We'll chase invoices, manage aged debtors and improve your cashflow.",
+            "Corporation tax, income tax, capital gains tax and inheritance tax advice.",
     },
     {
-        key: "Business Advisory",
-        icon: <FaUsersCog size={24} />,
+        key: "Business Advisory + Support",
+        icon: <MdBusinessCenter size={24} />,
         description:
-            "Outsource your entire accounts team—bookkeepers, accountants & controllers.",
+            "We’ll help you with business planning, forecasting and cash flow management.",
     },
     {
         key: "Management Accounts",
         icon: <FaChartLine size={24} />,
         description:
             "Monthly/quarterly management reports to help you steer your business.",
+    },
+    {
+        key: "Business Plans",
+        icon: <FaUsersCog size={24} />,
+        description:
+            "We’ll help you create a business plan that’s tailored to your needs.",
+    },
+    {
+        key: "Accounting Software",
+        icon: <CgSoftwareDownload size={24} />,
+        description:
+            "Cloud Based and In-House accounting software such as Xero, Quickbooks, Sage and more.",
     },
 ];
 
@@ -55,7 +80,7 @@ export default function Services() {
 
         <div className="max-w-4xl mx-auto py-10">
             <p className="pl-2 sm:pl-4 pb-4 md:text-2xl text-xl font-bold text-gray-50">
-                Give us the ledgers and we'll handle the rest. Check our services below:
+                Our Services:
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
                 {services.map((s) => (
