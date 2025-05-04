@@ -1,9 +1,7 @@
 import React from 'react';
 import {
-  FaDribbbleSquare,
   FaFacebookSquare,
   FaInstagram,
-  FaTwitterSquare,
 } from 'react-icons/fa';
 
 const Footer = () => {
