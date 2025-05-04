@@ -19,11 +19,9 @@ const Footer = () => {
         <p className='py-2'>Mobile: 0786 729311</p>
         <p className='py-0'>info@iipex.co.uk</p>
         <p className='py-0'>shabana@iipex.co.uk</p>
-        <div className='flex justify-between md:w-[75%] mt-4'>
+        <div className='flex justify-between w-[40%] mt-6'>
             <FaFacebookSquare size={30} />
             <FaInstagram size={30} />
-            <FaTwitterSquare size={30} />
-            <FaDribbbleSquare size={30} />
         </div>
       </div>
       <div className='lg:col-span-2 flex justify-between mt-6'>
@@ -31,7 +29,7 @@ const Footer = () => {
         <h6 className='font-medium text-gray-100'>Support</h6>
         <ul>
             <li className='py-2 text-sm'>Contact Us</li>
-            <li className='py-2 text-sm'>Contact About Website</li>
+            <li className='py-2 text-sm'>Website</li>
         </ul>
     </div>
     <div>
