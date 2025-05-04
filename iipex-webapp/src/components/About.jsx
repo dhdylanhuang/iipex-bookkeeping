@@ -9,7 +9,7 @@ const About = () => {
           <p className='md:text-4xl sm:text-3xl text-2xl py-2'>
             IIPEX Accountancy Services is based in <span className='font-bold'>Central Glasgow, Scotland.</span>
             <br></ br>
-            Our staff have <span className='font-bold'>over 20 years of experience</span> accross an array of industries.
+            Our staff have <span className='font-bold'>over 20 years of experience</span> across an array of industries.
           </p>
         </div>
       </div>
