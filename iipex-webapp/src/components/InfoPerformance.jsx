@@ -1,6 +1,6 @@
 import React from 'react';
 // import fsb_logo from '../assets/fsb-logo.png';
-// import aat_logo from '../assets/aat-logo.jpg';
+import aat_logo from '../assets/aat-logo.jpg';
 
 const InfoPerformance = () => {
   return (
@@ -9,7 +9,7 @@ const InfoPerformance = () => {
         <div className='flex flex-col justify-center'>
           <p className='text-xl text-blue-500 font-bold'>INFO PERFORMANCE</p>
           <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>
-            We are Members of and Certified with:
+            We are Members of:
           </h1>
           <div className="flex flex-row space-x-8 mt-4">
             {/* <a href="https://www.fsb.org.uk/">
@@ -19,13 +19,13 @@ const InfoPerformance = () => {
                 className="mt-4 w-56 transform transition-transform duration-300 ease-in-out hover:scale-110"
               />
             </a> */}
-            {/* <a href="https://www.aat.org.uk/about">
+            <a href="https://www.aat.org.uk/about">
               <img
                 src={aat_logo}
                 alt="AAT Logo"
                 className="mt-0 w-56 transform transition-transform duration-300 ease-in-out hover:scale-110"
               />
-            </a> */}
+            </a>
           </div>
           {/* <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Get Started</button> */}
         </div>
