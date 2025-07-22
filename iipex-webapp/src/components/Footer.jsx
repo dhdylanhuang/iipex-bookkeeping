@@ -37,8 +37,8 @@ const Footer = () => {
           </p>
 
           <p className="py-2 hover:underline">
-            <a href="tel:0786729311">
-              Mobile: 0786 729311
+            <a href="tel:07867293111">
+              Mobile: 0786 7293111
             </a>
           </p>
 
